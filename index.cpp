@@ -13,7 +13,9 @@ int main(){
     cin>>a;
     cout<<"Enter b value:"; 
     cin>>b;
-    cout<<"Enter Values are "<<a<<" "<<b<<endl;
+    for(int i=0;i<10;i++){
+        cout<<a++;
+    }
     swap(a,b);
     cout<<"After Swap entered values of a and b are "<<a<<" "<<b<<endl;
     return 0;
