@@ -8,15 +8,8 @@ void swap(int &a, int &b){
 }
 
 int main(){
-    int a,b;
-    cout<<"Enter a Value:";
-    cin>>a;
-    cout<<"Enter b value:"; 
-    cin>>b;
-    for(int i=0;i<10;i++){
-        cout<<a++;
-    }
-    swap(a,b);
-    cout<<"After Swap entered values of a and b are "<<a<<" "<<b<<endl;
+    int a = 5;
+    ++a += 20;
+    cout<<a;
     return 0;
 }
